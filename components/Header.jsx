@@ -9,7 +9,6 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
 import { MenuMobile } from "./MenuMobile";
 import { fetchDataFromAPi } from "@/utils/api";
-import { set } from "draft-js/lib/EditorState";
 import { useSelector } from "react-redux";
 
 export const Header = () => {
